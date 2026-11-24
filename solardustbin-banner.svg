@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+  <defs>
+    <linearGradient id="ssd-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#041a18"/>
+      <stop offset="100%" stop-color="#064e3b"/>
+    </linearGradient>
+    <linearGradient id="ssd-sun" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#ssd-bg)"/>
+
+  <!-- Solar Rays in Sky -->
+  <circle cx="80" cy="50" r="28" fill="#34d399" fill-opacity="0.15"/>
+  <circle cx="80" cy="50" r="16" fill="#34d399" fill-opacity="0.3"/>
+  <line x1="80" y1="18" x2="80" y2="10" stroke="#34d399" stroke-width="2"/>
+  <line x1="108" y1="50" x2="116" y2="50" stroke="#34d399" stroke-width="2"/>
+  <line x1="102" y1="28" x2="110" y2="20" stroke="#34d399" stroke-width="2"/>
+  <line x1="102" y1="72" x2="110" y2="80" stroke="#34d399" stroke-width="2"/>
+
+  <!-- Dustbin Main Body Structure -->
+  <path d="M165 48 L235 48 L225 170 L175 170 Z" fill="#082b26" stroke="#34d399" stroke-width="2"/>
+
+  <!-- Solar Roof Panel Angle -->
+  <polygon points="150,44 250,44 240,32 160,32" fill="#0c4a3e" stroke="#34d399" stroke-width="1.8"/>
+  <!-- Solar Photovoltaic Grid on roof -->
+  <line x1="180" y1="32" x2="175" y2="44" stroke="#34d399" stroke-opacity="0.6" stroke-width="1"/>
+  <line x1="200" y1="32" x2="200" y2="44" stroke="#34d399" stroke-opacity="0.6" stroke-width="1"/>
+  <line x1="220" y1="32" x2="225" y2="44" stroke="#34d399" stroke-opacity="0.6" stroke-width="1"/>
+
+  <!-- Ultrasonic Sensor Emitters -->
+  <circle cx="190" cy="58" r="4" fill="#061f1c" stroke="#34d399" stroke-width="1"/>
+  <circle cx="210" cy="58" r="4" fill="#061f1c" stroke="#34d399" stroke-width="1"/>
+
+  <!-- Ultrasonic Wave Arcs -->
+  <path d="M185 70 Q200 78 215 70" fill="none" stroke="#34d399" stroke-width="1.5" stroke-dasharray="2 2"/>
+  <path d="M180 80 Q200 90 220 80" fill="none" stroke="#34d399" stroke-width="1" stroke-dasharray="3 2" opacity="0.6"/>
+
+  <!-- Dual Chamber Sorting Indicator (Wet & Dry) -->
+  <line x1="200" y1="95" x2="200" y2="160" stroke="#34d399" stroke-dasharray="4 2" stroke-width="1.5"/>
+  <rect x="175" y="115" width="20" height="30" rx="3" fill="#0f766e" fill-opacity="0.4"/>
+  <text x="185" y="133" fill="#34d399" font-family="'Space Grotesk', sans-serif" font-size="8" font-weight="700" text-anchor="middle">DRY</text>
+
+  <rect x="205" y="115" width="20" height="30" rx="3" fill="#15803d" fill-opacity="0.4"/>
+  <text x="215" y="133" fill="#34d399" font-family="'Space Grotesk', sans-serif" font-size="8" font-weight="700" text-anchor="middle">WET</text>
+
+  <!-- Recycle Emblem -->
+  <circle cx="280" cy="110" r="26" fill="#062e26" stroke="#34d399" stroke-width="1.5"/>
+  <path d="M280 94 L288 106 L278 106 L280 94 Z M294 116 L284 124 L284 114 L294 116 Z M268 116 L272 126 L265 120 Z" fill="#34d399"/>
+  <text x="280" y="152" fill="#34d399" font-family="'Space Grotesk', sans-serif" font-size="10" font-weight="700" text-anchor="middle">SOLAR SMART</text>
+</svg>

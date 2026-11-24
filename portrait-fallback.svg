@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="400" height="480">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080e21"/>
+      <stop offset="50%" stop-color="#0d1838"/>
+      <stop offset="100%" stop-color="#060914"/>
+    </linearGradient>
+
+    <!-- Cyan/Electric Blue Accent Gradient -->
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="100%" stop-color="#0077ff"/>
+    </linearGradient>
+
+    <!-- Subtle Violet Gradient -->
+    <linearGradient id="violet-glow" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+
+    <!-- Radial Halo Glow -->
+    <radialGradient id="halo-glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#00f5ff" stop-opacity="0.35"/>
+      <stop offset="40%" stop-color="#8b5cf6" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#070b19" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="url(#bg-grad)"/>
+
+  <!-- Geometric Grid Accent Lines -->
+  <line x1="40" y1="0" x2="40" y2="480" stroke="#00f5ff" stroke-opacity="0.07" stroke-width="1"/>
+  <line x1="360" y1="0" x2="360" y2="480" stroke="#00f5ff" stroke-opacity="0.07" stroke-width="1"/>
+  <line x1="0" y1="120" x2="400" y2="120" stroke="#00f5ff" stroke-opacity="0.07" stroke-width="1"/>
+  <line x1="0" y1="360" x2="400" y2="360" stroke="#00f5ff" stroke-opacity="0.07" stroke-width="1"/>
+
+  <!-- Radiant Backlight Circle -->
+  <circle cx="200" cy="190" r="140" fill="url(#halo-glow)"/>
+
+  <!-- Futuristic Mechanical Ring Accent -->
+  <circle cx="200" cy="190" r="115" stroke="url(#cyan-glow)" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <circle cx="200" cy="190" r="125" stroke="url(#violet-glow)" stroke-opacity="0.2" stroke-width="1"/>
+
+  <!-- Orbiting Engineering Nodes -->
+  <circle cx="95" cy="150" r="3.5" fill="#00f5ff"/>
+  <line x1="95" y1="150" x2="130" y2="175" stroke="#00f5ff" stroke-opacity="0.4" stroke-width="1"/>
+  
+  <circle cx="305" cy="220" r="3.5" fill="#8b5cf6"/>
+  <line x1="305" y1="220" x2="275" y2="195" stroke="#8b5cf6" stroke-opacity="0.4" stroke-width="1"/>
+
+  <!-- Stylized Elegant Engineer Silhouette -->
+  <!-- Torso & Shoulders -->
+  <path d="M110 390 C110 320, 140 295, 170 285 L230 285 C260 295, 290 320, 290 390 L320 440 C320 455, 305 460, 290 460 L110 460 C95 460, 80 455, 80 440 Z" fill="#131e3d" stroke="url(#cyan-glow)" stroke-width="2" stroke-opacity="0.6"/>
+
+  <!-- Collar & Tech Lapel Lines -->
+  <path d="M175 285 L200 335 L225 285" fill="none" stroke="url(#cyan-glow)" stroke-width="2" stroke-opacity="0.7"/>
+  <line x1="200" y1="335" x2="200" y2="430" stroke="#00f5ff" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+  <!-- Neck -->
+  <path d="M185 240 L185 285 L215 285 L215 240 Z" fill="#1e2c56"/>
+
+  <!-- Head Base Oval -->
+  <ellipse cx="200" cy="190" rx="42" ry="54" fill="#223363" stroke="url(#cyan-glow)" stroke-width="1.5" stroke-opacity="0.5"/>
+
+  <!-- Modern Sleek Hair Silhouette -->
+  <path d="M154 185 C150 145, 175 130, 200 130 C225 130, 250 145, 246 185 C242 165, 225 145, 200 145 C175 145, 158 165, 154 185 Z" fill="#0b1226"/>
+  <path d="M152 180 C150 220, 160 250, 168 265 C164 240, 160 205, 164 175 Z" fill="#0b1226"/>
+  <path d="M248 180 C250 220, 240 250, 232 265 C236 240, 240 205, 236 175 Z" fill="#0b1226"/>
+
+  <!-- Center Identity Monogram Motif -->
+  <rect x="165" y="380" width="70" height="26" rx="6" fill="#0a1228" stroke="url(#cyan-glow)" stroke-width="1.5"/>
+  <text x="200" y="398" fill="#00f5ff" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="2">SHD &bull; MANIT</text>
+
+  <!-- Subtle Ambient Foreground Sparkles -->
+  <circle cx="140" cy="110" r="1.5" fill="#ffffff" opacity="0.8"/>
+  <circle cx="260" cy="95" r="1.5" fill="#00f5ff" opacity="0.9"/>
+  <circle cx="280" cy="270" r="1.5" fill="#8b5cf6" opacity="0.7"/>
+</svg>

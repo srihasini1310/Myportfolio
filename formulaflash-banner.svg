@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+  <defs>
+    <linearGradient id="ff-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a050e"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+    <filter id="yt-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#ff-bg)"/>
+
+  <!-- Mathematical & Physics Equations in Subtle Floating Background -->
+  <g fill="#ffffff" fill-opacity="0.12" font-family="'JetBrains Mono', monospace" font-size="12">
+    <text x="30" y="45">F = m(dv/dt)</text>
+    <text x="35" y="85">∫ e^(kx) dx</text>
+    <text x="30" y="130">v² = u² + 2as</text>
+    <text x="35" y="170">E = -13.6/n² eV</text>
+
+    <text x="270" y="45">ΔG = ΔH - TΔS</text>
+    <text x="280" y="85">∇ × B = μ₀J</text>
+    <text x="265" y="130">PV = nRT</text>
+    <text x="275" y="170">λ = h / (mv)</text>
+  </g>
+
+  <!-- Glowing YouTube Card Center Stage -->
+  <rect x="140" y="45" width="120" height="85" rx="20" fill="#ff0033" filter="url(#yt-glow)"/>
+  
+  <!-- Play Icon Triangle -->
+  <polygon points="190,72 210,87.5 190,103" fill="#ffffff"/>
+
+  <!-- Flash Lightning Bolt -->
+  <path d="M215 50 L203 72 L213 72 L201 95 L225 68 L213 68 Z" fill="#facc15" stroke="#78350f" stroke-width="0.8"/>
+
+  <!-- Channel Banner Tag -->
+  <rect x="110" y="145" width="180" height="28" rx="8" fill="#180408" stroke="#ff4d6d" stroke-width="1.2"/>
+  <text x="200" y="163" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="1">
+    JEE FORMULA FLASH
+  </text>
+</svg>
